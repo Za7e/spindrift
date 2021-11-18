@@ -46,28 +46,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css?family=Original+Surfer&display=swap');
+
+
+/* @media (max-width: 700px) {
+    .mainContainer{
+        width:100vw;
+        height:70vh;
+    }
+} */
 
 .mainContainer{
-    width:100vw;
-    height:130vh;
+    height:100vh;
     background-image: url("./img/knives.jpeg");
     background-size:cover;
     background-position: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    flex-direction: column;
-    font-family: 'Original Surfer';
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
 }
 
 .mainContainer h1{
-    color: white;
-    font-size: 4rem;
-    padding-top: 180px;
+    color: rgba(235, 235, 235, .8);
+    font-size: 1.6rem;
+    padding-top: 25%;
 }
 
 .mainContainer h2{
-    color: white;
-    font-size: 3rem;
-    padding-top: 390px;
+    color: rgba(235, 235, 235, .8);
+    font-size: 1.5rem;
+    padding-top: 30%;
+}
+
+.styleContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 250px;
+    height: 250px;
 }
